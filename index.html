@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio de Gustavo - Contrabaixista</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <div class="avatar-placeholder"></div>
+        <p class="lead">Eu sou Gustavo, Contrabaixista e Músico</p>
+        <h1>Eu vivo pela música</h1>
+        <p>Sou um músico apaixonado, tocando contrabaixo, guitarra, e explorando uma variedade de sons, do rock ao jazz, passando por ritmos intensos de percussão e bateria. Meu estilo é influenciado por bandas como CBJR e outras lendas do rock. Veja os projetos que já desenvolvi!</p>
+        <p>Minhas habilidades musicais</p>
+        <div>
+            <p class="badge bg-secondary">Contrabaixo</p>
+            <p class="badge bg-secondary">Guitarra</p>
+            <p class="badge bg-secondary">Percussão</p>
+            <p class="badge bg-secondary">Bateria</p>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <h2>Meus projetos musicais</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Banda de Rock - Projeto de Música Original</h5>
+                        <p class="card-text">Este projeto é uma composição original para uma banda de rock, onde eu toco contrabaixo e guitarra. A música foi escrita e arranjada para trazer uma vibe intensa e energética, com riffs de guitarra e linhas de baixo marcantes.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Ouça o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Session Bass - Gravação de Músicas para Bandas Independentes</h5>
+                        <p class="card-text">Neste projeto, eu fui contratado para tocar contrabaixo em várias faixas de bandas independentes, trazendo minha experiência no estilo rock alternativo, com um toque de groove e profundidade no baixo.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Ouça o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Jam Session - Improvisos ao Vivo</h5>
+                        <p class="card-text">Este é um projeto de jam session, onde a improvisação no contrabaixo e guitarra foi a chave para a criação de novos arranjos e sonoridades. O foco aqui foi explorar diferentes estilos e influências musicais.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Ouça o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Banda de Rock - Projeto de Música Original</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma composição original para uma banda de rock, focada em riffs de guitarra pesados e linhas de baixo marcantes. Ouça o áudio da faixa abaixo para sentir a energia desse trabalho musical.</p>
+                    <audio controls>
+                        <source src="audio/projeto1.mp3" type="audio/mp3">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/gustavo/musica-rock" class="btn btn-primary">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Session Bass - Gravação de Músicas para Bandas Independentes</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto envolve a gravação de faixas de baixo para várias bandas independentes. Ouça o trecho da gravação em que toquei com uma banda de rock alternativo, trazendo groove e impacto para a música.</p>
+                    <audio controls>
+                        <source src="audio/projeto2.mp3" type="audio/mp3">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/gustavo/session-bass" class="btn btn-primary">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Jam Session - Improvisos ao Vivo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>A Jam Session foi uma oportunidade de improvisação ao vivo. Escute o que criamos com contrabaixo e guitarra, explorando diferentes estilos musicais, com muito groove e liberdade criativa.</p>
+                    <audio controls>
+                        <source src="audio/projeto3.mp3" type="audio/mp3">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/gustavo/jam-session" class="btn btn-primary">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/gustavo">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Gustavo - Contrabaixista</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
